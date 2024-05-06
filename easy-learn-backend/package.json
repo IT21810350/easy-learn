@@ -1,0 +1,11 @@
+{
+  "name": "easy-learn-backend",
+  "version": "1.0.0",
+  "description": "educational-platform-for-online-learning",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
