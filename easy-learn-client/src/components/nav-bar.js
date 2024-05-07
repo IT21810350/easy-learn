@@ -67,7 +67,7 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/landing-page" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="/learner-dashboard" tag={Link}>
                 <img
                   alt="..."
                   src={require("../assets/img/nasa-logo.png")}
@@ -86,7 +86,7 @@ class DemoNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/landing-page">
+                      <Link to="/learner-dashboard">
                         <img
                           alt="..."
                           src={require("../assets/img/nasa-logo-black.png")}
@@ -103,18 +103,18 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <NavItem>
-                    <NavLink tag={Link} to="/mars-rover">
-                      Mars Rover Photos
+                    <NavLink tag={Link} to="/learner-dashboard">
+                      Courses
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink tag={Link} to="/apod">
-                      Astronomy Picture of the Day
+                      Lecture Materials
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink tag={Link} to="/earth-imagery">
-                      Earth Imagery
+                    <NavLink tag={Link} to="/learner-dashboard">
+                      Quizzes
                     </NavLink>
                   </NavItem>
                 </Nav>

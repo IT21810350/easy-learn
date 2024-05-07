@@ -47,7 +47,7 @@ class LearnerSignUp extends React.Component {
     try {
       const { FirstName, LastName, PersonalEmail, Password } = this.state;
 
-      const response = await axios.post("http://localhost:400/learner-signup", {
+      const response = await axios.post("http://localhost:4000/learner-signup", {
         FirstName,
         LastName,
         PersonalEmail,
